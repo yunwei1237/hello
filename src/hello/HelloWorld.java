@@ -2,6 +2,10 @@ package hello;
 
 public class HelloWorld {
 	public static void main(String[] args) {
-		System.out.println("hello git");
+		println("hello git");
+	}
+	
+	public static void println(String str){
+		System.out.println(str);
 	}
 }
